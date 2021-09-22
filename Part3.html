@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSL3403_ASSIGNMENT 3_Part3</title>
+    <style>
+        /*CSS Descendant Selectors*/
+        body h1 {
+            color: blue;
+            /* color of all h1 that are descendants of body will change to blue */
+        }
+
+        body li {
+            font-size: 40px;
+            /* size of all lists that are descendants of body will change to 40px*/
+        }
+
+        /*CSS CHILD Selectors*/
+        ol>li {
+            background-color: yellow;
+            /* background color of those lists that are children of ordered list will change to yellow */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSL3403_ASSIGNMENT 3_Part3</h1><br>
+    <h1>this is heading 1 who is child of body tag.</h1>
+    <div>
+        <h1>this is heading 1 who is child of div tag.</h1>
+        <h2>this is heading 2 who is child of div tag.</h2>
+        <ul>
+            <li>This is a list who is child of unordered list.</li>
+            <li>This is a list who is child of unordered list.</li>
+        </ul>
+    </div>
+    <article>
+        <h1>this is heading 1 who is child of article tag.</h1>
+        <ol>
+            <li>This a list that is child of ordered list.</li>
+            <li>This a list that is child of ordered list.</li>
+            <li>This a list that is child of ordered list.</li>
+            <li>This a list that is child of ordered list.</li>
+        </ol>
+    </article><br>
+    <a href="index.html"><h3>CLICK HERE TO RETURN TO THE HOME PAGE</h3></a>
+</body>
+
+</html>
